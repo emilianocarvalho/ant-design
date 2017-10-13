@@ -5,142 +5,143 @@ title:
   en-US: Data Entry
 ---
 
-数据录入是获取对象信息的重要交互方式，用户会频繁的增加、修改或删除信息。多种多样的文本录入和选择录入方式帮助用户更加清晰和高效的完成这项体验。设计者应当注意这几点：
+Data entry is an important way to get the object information, users will frequently increase, modify or delete information. A wide variety of text entry and selection input methods help users to more clearly and efficiently complete this experience. Designers should be aware of these points：
 
-- 为初级用户／偶尔访问的用户提供简单易懂的文案作为『标签（Label） 』；为领域专家提供专业术语作为『标签（Label） 』。当需要用户提供敏感信息时，通过『暗提示』来说明系统为什么要这么做，例如：需要获取身份证号码、手机号码时；
-- 让用户能在上下文中获取信息，帮助他完成输入。使用『良好的默认值』、『结构化的格式』、『暗提示』、『输入提醒』等方式，避免让用户在空白中猜测输入。
+- Provide easy-to-understand copywriters for beginners / occasional users "Label"；Provide professional terminology as a domain expert "Label"。The When the user needs to provide sensitive information, through the "dark tips" to explain why the system to do so, for example: need to obtain identity card number, mobile phone number；
+- So that users can get information in the context to help him complete the input. Use "good defaults", "structured formats", "dark tips", "input reminders", etc., to avoid allowing users to guess input in the blank.
 
 ---
 
-## 文本录入
+## Text entry
 
-输入框为用户提供了编辑文本的控件，是录入数据最基础和常见的方式。
+The input box provides the user with the control of editing the text, which is the most basic and common way to enter the data.
 
-### 文本框（Input）
+### The text box (Input)
 
 <img class="preview-img no-padding" align="right" src="https://zos.alipayobjects.com/rmsportal/BPMNkGkHFqbBCRMUdfRh.png">
 
-输入较少的字符总数，使用单行的输入形式。
+Enter less total number of characters, using a single line of input.
 
-> 注：可以对一些文本（如数字和网址）运用特别的样式。详见 [输入框（Input）](/components/input/)。
+> Note: You can use special styles for some text (such as numbers and URLs). See [Input Box](/components/input/)。
 
-### 文本域（Textarea）
+### Text field（Textarea）
 
 <img class="preview-img no-padding" align="right" src="https://zos.alipayobjects.com/rmsportal/QVRSSdYrWjthpCOupqON.png">
 
-录入长篇幅的单一的文本使用多行的文本区域。
+Enter a single piece of text that uses multiple lines of text。
 
-### 提示与帮助
+### Tips and help
 
-<img class="preview-img no-padding" align="right" src="https://zos.alipayobjects.com/rmsportal/KSWwgpyjPkbwclNvbvvR.png" alt="基本样式">
+<img class="preview-img no-padding" align="right" src="https://zos.alipayobjects.com/rmsportal/KSWwgpyjPkbwclNvbvvR.png" alt="Basic style">
 
-为提升数据录入效率，通常可以在输入框内增加暗提示以帮助提醒用户。
+To improve data entry efficiency, you can usually add a dark hint in the input box to help remind the user.
 
-> 注：输入框通常与标签（label）搭配使用，标签（label）默认放于输入区域的左侧，当文案过长或英文环境下也可放于在上方，但同个系统中需保持统一。
+> Note: The input box is usually used with the label, label (label) default on the left side of the input area, when the copy is too long or English environment can also be placed in the top, but the same system to maintain unity.
 
-<img class="preview-img no-padding" align="right" src="https://zos.alipayobjects.com/rmsportal/RtFCPKSMfRlgISbMJJRy.png" description="当说明文案较长时，你可以使用一个『信息』图标或者提示工具。">
+<img class="preview-img no-padding" align="right" src="https://zos.alipayobjects.com/rmsportal/RtFCPKSMfRlgISbMJJRy.png" description="When the presentation is longer, you can use an "info" icon or a reminder tool.">
 
-<img class="preview-img no-padding" align="right" src="https://zos.alipayobjects.com/rmsportal/rElfIRpcmLsCTFzZDINy.png" description="对于那些短的输入提醒（短于一句），你可以将其放置在输入框的下方。">
+<img class="preview-img no-padding" align="right" src="https://zos.alipayobjects.com/rmsportal/rElfIRpcmLsCTFzZDINy.png" description="
+For those short input reminders (shorter than one), you can place them below the input box.">
 
-### 搜索（Search）
+### search for（Search）
 
 <img class="preview-img no-padding" align="right" src="https://zos.alipayobjects.com/rmsportal/ycPmRlbZtsoYAibbwMCZ.png">
 
-搜索可以让用户在巨大的信息池中缩小目标范围，并快速获取需要的信息。
+Search allows users to narrow their target range in a huge pool of information and quickly get the information they need.
 
 ---
 
-## 选择录入
+## Select entry
 
-让用户在一个预定的范围中进行选择。
+Allowing the user to select in a predetermined range.
 
-#### 单选框（Radio Button）
+#### Radio button
 
 <img class="preview-img no-padding" align="right" src="https://zos.alipayobjects.com/rmsportal/EvxgOJzHiQAxpuRaEhbH.png">
 
-单选按钮允许用户从多个选项中选择一个选项。Radio 所有选项默认可见，方便用户在比较中选择，因此选项不宜过多。
+The radio button allows the user to select an option from multiple options. Radio All options are visible by default, making it easier for users to select in the comparison, so the options should not be too much.
 
-> 注：单选框（Radio Button）一定多于 2 个，一般少于 5 个。
+> Note: Radio button (Radio Button) must be more than 2, generally less than 5.
 
-### 复选框（Checkbox）
+### Checkbox
 
 <img class="preview-img no-padding" align="right" src="https://zos.alipayobjects.com/rmsportal/duKUrQDKiyPnYaWtvkQK.png">
 
-复选框用于在一组可选项中进行多项选择时。
+Check box is used to make multiple selections in a set of options.
 
-> 注：
-> 1. 复选框（Checkbox）一般用于状态标记，需要和提交操作配合；
-> 2. 单个复选框可以表示两种状态之间的切换。
+> Note:
+> 1. Checkbox is generally used for status tags, and the need to submit with the operation;
+> 2. A single check box can indicate a switch between the two states.
 
-### 开关（Switch）
+### Switch (Switch)
 
 <img class="preview-img no-padding" align="right" src="https://zos.alipayobjects.com/rmsportal/aIdIORGzFNjqMwrmiguZ.png">
 
-用于切换单个选项的状态。『开关』的内联标签应该显示清楚，例如：禁用/启用，不允许/允许等。
+Used to toggle the status of individual options. The inline label of the "switch" should be clear, for example: disabled / enabled, not allowed / allowed.
 
 <br />
 
-<img class="preview-img no-padding good" align="right" src="https://zos.alipayobjects.com/rmsportal/qoqGjsZYATDiXiWEjNIK.png" alt="正确示范">
-<img class="preview-img no-padding bad" align="right" src="https://zos.alipayobjects.com/rmsportal/ZcWvStIELApkpnkDOWDG.png" alt="错误示范" description="切换『开关』结果会立即生效，无需与操作按钮搭配使用。">
+<img class="preview-img no-padding good" align="right" src="https://zos.alipayobjects.com/rmsportal/qoqGjsZYATDiXiWEjNIK.png" alt="Correct demonstration">
+<img class="preview-img no-padding bad" align="right" src="https://zos.alipayobjects.com/rmsportal/ZcWvStIELApkpnkDOWDG.png" alt="Wrong demonstration" description="Switching the "switch" results will take effect immediately and do not need to be used with the operation buttons.">
 
-> 注：当用户切换『开关』按钮将直接触发状态改变。
+> Note: When the user switches the "switch" button will trigger the status change directly.
 
-### 选择列表（Dropdown）
+### Select a list（Dropdown）
 
 <img class="preview-img no-padding" align="right" src="https://zos.alipayobjects.com/rmsportal/iGSmUHkADwVyhuTOBkpJ.png">
 
-选择列表（通常称为下拉菜单）允许用户从列表中选择一个选项或多个选项，为用户在选项的数量上提供了更多的灵活性。
+The selection list (commonly referred to as the drop-down menu) allows the user to select an option or multiple options from the list to provide more flexibility for the number of options on the user.
 
-> 注：
-> 1. 当选项多于 5 项时使用；
-> 2. 列表选项按照逻辑排序，并尽量让内容显示完整。
+> Note:
+> 1. When the option is more than 5 when used;
+> 2. The list options are sorted logically and try to make the content complete.
 
-### 滑块选择（Slider）
+### Slider selection（Slider）
 
 <img class="preview-img no-padding" align="right" src="https://zos.alipayobjects.com/rmsportal/JJZycUHtpopKCMxXyQpx.png">
 
-滑块选择可以在连续或间断的区间内，通过滑动锚点来选择一个合适的数值。这种交互特性使得它在设置诸如音量，亮度，色彩饱和度等需要反映强度等级的选项时是一种极好的选择。
+Slider selection You can select an appropriate value by sliding the anchor point in a continuous or intermittent interval. This interactive feature makes it an excellent choice when setting options such as volume, brightness, color saturation, etc. that need to reflect the intensity level.
 
 <br />
 
 <img class="preview-img no-padding" align="right" src="https://zos.alipayobjects.com/rmsportal/hWhUUUzikHarZSBhefDI.png">
 
-> 注：在不要求精准数值的场景下用户使用『连续滑块』可得到更灵活便捷的操作；在用户需要精确数值时，可与『数字输入框』搭配使用。
+> Note: Users can use the "continuous slider" for a more flexible and convenient operation without requiring precise values. When the user needs precise values, they can be used with the "digital input box".
 
-### 穿梭框（Transfer）
+### Shuttle box（Transfer）
 
 <img class="preview-img no-padding" align="right" src="https://zos.alipayobjects.com/rmsportal/VpfyicZPlNugqEjQKSDf.png">
 
-穿梭框用直观的方式在两栏中移动元素，完成选择行为。
+The shuttle box moves the elements in two columns in an intuitive way to complete the selection behavior.
 
-### 日期选择器（DatePicker）
+### Date selector（DatePicker）
 
 <img class="preview-img no-padding" align="right" src="https://zos.alipayobjects.com/rmsportal/gaaLemRmjgNpcnlthmkr.png">
 
-日期选择器为用户提供了一种可视化的方式去浏览和选择一个日期或者日期范围。
+The date selector provides the user with a visual way to browse and select a date or date range.
 
 ---
 
-## 文件上传（Upload）
+## File Upload（Upload）
 
-上传是将本地的相应信息(包含本地和云储存)通过网页或者上传工具发布到远程服务器上的过程。
+Uploading is the process of publishing local local information (including local and cloud storage) to a remote server via web pages or uploading tools.
 
-### 简单点击上传
+### Just click to upload
 
 <img class="preview-img no-padding" align="right" src="https://zos.alipayobjects.com/rmsportal/aqMzAypQRBkmWfMOpOCE.png">
 
-一般用于单个上传且不需要预览效果的文件上传，点击按钮弹出文件选择框。
+Generally used for a single upload and do not need to preview the effect of the file upload, click the button to pop up the file selection box.
 
-### 显示缩略图上传
+### Show thumbnail upload
 
 <img class="preview-img no-padding" align="right" src="https://zos.alipayobjects.com/rmsportal/oUsyeTsjadJfieTspgVq.png">
 
-一般用于图片文件上传，用户可以上传图片并在列表中显示缩略图。当上传照片数到达限制后，上传按钮消失。
+Generally used for image file upload, the user can upload pictures and display thumbnails in the list. When the number of uploads reaches the limit, the upload button disappears.
 
-### 拖拽上传
+### Drag and drop
 
 <img class="preview-img no-padding" align="right" src="https://zos.alipayobjects.com/rmsportal/euEBewdgKmhThFWrWHIm.png">
 
-把文件拖入指定区域，完成上传，同样支持点击上传。
+Drag the file into the specified area, complete the upload, the same support click upload.
 
-> 注：文件上传需要提供明确的文件大小和文件格式，例如：请选择大小不超过 5M 的文本文件（支持 PDF.ZIP.EXL），上传时需要有明确的进度提示。
+> Note: Please upload file to provide a clear file size and file format, for example: Please select the size of not more than 5M text file (support PDF.ZIP.EXL), upload need to have a clear progress tips.
